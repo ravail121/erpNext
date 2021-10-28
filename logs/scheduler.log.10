@@ -1,0 +1,777 @@
+2021-10-27 21:48:54,324 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:49:54,578 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:50:54,832 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:50:54,875 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:50:55,024 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:50:55,108 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:50:55,211 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:50:55,319 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:50:55,628 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:50:55,756 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 21:50:55,878 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 21:50:55,977 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:50:56,069 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:50:56,167 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:50:56,513 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:50:56,611 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:50:56,845 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:50:56,946 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:50:57,182 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:50:57,269 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 21:50:57,438 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 21:51:55,137 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:52:55,388 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:53:55,655 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:54:55,991 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:54:56,030 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:54:56,225 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:54:56,314 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:54:56,418 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:54:56,522 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:54:56,854 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:54:56,968 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 21:54:57,056 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 21:54:57,202 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:54:57,312 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:54:57,424 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:54:57,793 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:54:57,883 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:54:58,137 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:54:58,239 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:54:58,463 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:54:58,555 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 21:54:58,762 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 21:55:56,338 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:56:56,576 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:57:56,877 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:58:57,297 DEBUG scheduler Queued events for site site1.local
+2021-10-27 21:58:57,403 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:58:57,829 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 21:58:57,932 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:58:58,077 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 21:58:58,166 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:58:58,604 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 21:58:58,702 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 21:58:58,808 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 21:58:58,907 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:58:58,990 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 21:58:59,072 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:58:59,492 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 21:58:59,588 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:58:59,852 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 21:58:59,946 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:59:00,233 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 21:59:00,333 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 21:59:00,576 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 21:59:57,587 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:00:57,933 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 22:00:57,987 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:00:58,634 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 22:00:58,754 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:00:59,082 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:00:59,183 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:00:59,547 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:00:59,655 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:01:00,042 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:01:58,252 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:02:58,527 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:02:58,591 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:02:58,721 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:02:58,804 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:02:58,916 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:02:59,010 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:02:59,282 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:02:59,366 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:02:59,455 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:02:59,539 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:02:59,621 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:02:59,704 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:03:00,001 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:03:00,099 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:03:00,335 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:03:00,419 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:03:00,661 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:03:00,752 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:03:00,951 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:03:58,871 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:04:59,177 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:05:59,447 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:06:59,746 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:06:59,775 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:06:59,942 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:07:00,020 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:07:00,125 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:07:00,229 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:07:00,531 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:07:00,633 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:07:00,748 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:07:00,852 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:07:00,957 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:07:01,072 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:07:01,406 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:07:01,500 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:07:01,747 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:07:01,889 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:07:02,212 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:07:02,340 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:07:02,545 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:08:00,211 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:09:00,508 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:10:00,818 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:10:00,881 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:10:01,042 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:10:01,141 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:10:01,259 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:10:01,362 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:10:01,743 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:10:01,914 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:10:02,026 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:10:02,140 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:10:02,286 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:10:02,425 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:10:02,897 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:10:03,050 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:10:03,304 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:10:03,464 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:10:03,885 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:10:04,015 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:10:04,320 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:11:01,315 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:12:01,803 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:13:02,264 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:14:02,622 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:14:02,700 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:14:02,896 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:14:03,030 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:14:03,148 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:14:03,251 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:14:03,559 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:14:03,661 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:14:03,768 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:14:03,878 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:14:03,974 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:14:04,076 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:14:04,380 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:14:04,493 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:14:04,744 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:14:04,841 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:14:05,088 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:14:05,183 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:14:05,362 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:15:03,259 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:15:03,378 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:15:03,755 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:15:03,878 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:15:04,244 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:15:04,366 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:15:04,726 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:16:03,572 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:17:03,858 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:18:04,192 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:18:04,218 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:18:04,400 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:18:04,530 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:18:04,661 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:18:04,769 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:18:05,155 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:18:05,279 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:18:05,399 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:18:05,531 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:18:05,640 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:18:05,751 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:18:06,093 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:18:06,198 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:18:06,454 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:18:06,549 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:18:06,796 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:18:06,888 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:18:07,075 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:19:04,506 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:20:04,772 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:21:05,004 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:22:05,314 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:22:05,407 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:22:05,543 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:22:05,626 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:22:05,721 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:22:05,814 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:22:06,163 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:22:06,269 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:22:06,376 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:22:06,484 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:22:06,588 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:22:06,682 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:22:07,006 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:22:07,102 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:22:07,364 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:22:07,466 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:22:07,709 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:22:07,822 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:22:08,021 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:23:05,661 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:24:05,920 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:25:06,187 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:26:06,482 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:26:06,510 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:26:06,726 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:26:06,830 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:26:06,934 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:26:07,026 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:26:07,372 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:26:07,477 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:26:07,577 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:26:07,685 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:26:07,792 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:26:07,915 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:26:08,234 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:26:08,331 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:26:08,585 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:26:08,705 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:26:08,978 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:26:09,077 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:26:09,277 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:27:06,808 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:28:07,093 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:29:07,376 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:30:07,637 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for site1.local
+2021-10-27 22:30:07,776 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for site1.local
+2021-10-27 22:30:08,214 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:30:08,629 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for site1.local
+2021-10-27 22:30:08,647 INFO scheduler Scheduled Job Failed: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for site1.local
+2021-10-27 22:30:08,771 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for site1.local
+2021-10-27 22:30:09,144 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for site1.local
+2021-10-27 22:30:09,277 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for site1.local
+2021-10-27 22:30:09,680 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for site1.local
+2021-10-27 22:30:09,807 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for site1.local
+2021-10-27 22:30:10,195 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for site1.local
+2021-10-27 22:30:10,312 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for site1.local
+2021-10-27 22:30:10,707 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for site1.local
+2021-10-27 22:30:10,833 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for site1.local
+2021-10-27 22:30:11,366 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for site1.local
+2021-10-27 22:30:11,483 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for site1.local
+2021-10-27 22:30:11,994 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for site1.local
+2021-10-27 22:30:12,081 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for site1.local
+2021-10-27 22:30:12,441 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for site1.local
+2021-10-27 22:30:12,557 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for site1.local
+2021-10-27 22:30:12,889 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for site1.local
+2021-10-27 22:30:13,003 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for site1.local
+2021-10-27 22:30:13,316 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for site1.local
+2021-10-27 22:30:13,428 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:30:13,643 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:30:13,731 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:30:13,844 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:30:13,962 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:30:14,296 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:30:14,385 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 22:30:14,821 INFO scheduler Scheduled Job Failed: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 22:30:14,922 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for site1.local
+2021-10-27 22:30:15,302 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for site1.local
+2021-10-27 22:30:15,406 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for site1.local
+2021-10-27 22:30:15,972 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for site1.local
+2021-10-27 22:30:16,067 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for site1.local
+2021-10-27 22:30:16,409 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for site1.local
+2021-10-27 22:30:16,543 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for site1.local
+2021-10-27 22:30:16,798 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for site1.local
+2021-10-27 22:30:16,907 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for site1.local
+2021-10-27 22:30:17,226 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for site1.local
+2021-10-27 22:30:17,353 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for site1.local
+2021-10-27 22:30:17,659 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for site1.local
+2021-10-27 22:30:17,777 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for site1.local
+2021-10-27 22:30:18,182 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for site1.local
+2021-10-27 22:30:18,314 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for site1.local
+2021-10-27 22:30:18,664 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for site1.local
+2021-10-27 22:30:18,782 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:30:18,882 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:30:18,984 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:30:19,081 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:30:19,196 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:30:19,530 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:30:19,649 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:30:19,897 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:30:19,993 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:30:20,224 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:30:20,308 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:30:20,492 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:30:20,609 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:30:20,935 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:30:21,050 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:30:21,414 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:30:21,514 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:30:21,782 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:31:08,483 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:32:08,777 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:33:09,083 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:34:09,531 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:34:09,734 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:34:09,922 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:34:10,048 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:34:10,177 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:34:10,300 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:34:10,647 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:34:10,744 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:34:10,868 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:34:10,991 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:34:11,113 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:34:11,211 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:34:11,534 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:34:11,656 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:34:11,908 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:34:12,037 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:34:12,337 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:34:12,478 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:34:12,713 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:35:10,036 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:36:10,361 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:37:10,714 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:38:10,996 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:38:11,003 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:38:11,205 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:38:11,303 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:38:11,416 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:38:11,503 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:38:11,803 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:38:11,928 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:38:12,049 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:38:12,146 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:38:12,238 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:38:12,335 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:38:12,666 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:38:12,754 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:38:12,996 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:38:13,087 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:38:13,312 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:38:13,398 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:38:13,560 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:39:11,298 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:40:11,573 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:41:11,815 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:42:12,172 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:42:12,227 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:42:12,432 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:42:12,567 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:42:12,696 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:42:12,804 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:42:13,139 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:42:13,238 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:42:13,361 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:42:13,486 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:42:13,604 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:42:13,711 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:42:14,117 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:42:14,230 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:42:14,478 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:42:14,578 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:42:14,814 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:42:14,907 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:42:15,102 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:43:12,502 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:44:12,765 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:45:13,041 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:45:13,135 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:45:13,476 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 22:45:13,584 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:45:13,949 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 22:45:14,073 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:45:14,392 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 22:46:13,380 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:46:13,519 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:46:13,719 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:46:13,838 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:46:14,000 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:46:14,145 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:46:14,476 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:46:14,585 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:46:14,694 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:46:14,826 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:46:14,931 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:46:15,033 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:46:15,350 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:46:15,453 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:46:15,685 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:46:15,796 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:46:16,084 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:46:16,203 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:46:16,403 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:47:13,819 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:48:14,101 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:49:14,362 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:50:14,693 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:50:14,759 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:50:14,919 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:50:15,040 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:50:15,158 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:50:15,269 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:50:15,579 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:50:15,683 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:50:15,783 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:50:15,891 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:50:16,008 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:50:16,137 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:50:16,497 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:50:16,635 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:50:16,871 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:50:16,955 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:50:17,197 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:50:17,300 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:50:17,483 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:51:15,032 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:52:15,304 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:53:15,534 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:54:15,842 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:54:15,855 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:54:16,077 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:54:16,164 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:54:16,270 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:54:16,363 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:54:16,649 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:54:16,743 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:54:16,845 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:54:16,944 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:54:17,048 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:54:17,141 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:54:17,484 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:54:17,601 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:54:17,888 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:54:17,993 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:54:18,251 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:54:18,343 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:54:18,595 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:55:16,130 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:56:16,380 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:57:16,800 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:58:17,221 DEBUG scheduler Queued events for site site1.local
+2021-10-27 22:58:17,616 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:58:18,037 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 22:58:18,127 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:58:18,262 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 22:58:18,356 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:58:18,788 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 22:58:18,889 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 22:58:18,994 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 22:58:19,092 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:58:19,209 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 22:58:19,305 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:58:19,684 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 22:58:19,776 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:58:20,039 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 22:58:20,125 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:58:20,395 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 22:58:20,508 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 22:58:20,703 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 22:59:17,442 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:00:17,772 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 23:00:17,811 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:00:18,413 INFO scheduler Scheduled Job Complete: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 23:00:18,525 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:00:18,918 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:00:19,038 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:00:19,430 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:00:19,539 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:00:19,884 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:01:18,088 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:02:18,367 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:02:18,487 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:02:18,630 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:02:18,724 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:02:18,812 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:02:18,898 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:02:19,197 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:02:19,290 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:02:19,388 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:02:19,477 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:02:19,567 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:02:19,650 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:02:19,952 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:02:20,034 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:02:20,266 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:02:20,372 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:02:20,605 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:02:20,696 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:02:20,890 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:03:18,779 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:04:19,039 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:05:19,321 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:06:19,607 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:06:19,653 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:06:19,812 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:06:19,900 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:06:19,997 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:06:20,081 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:06:20,377 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:06:20,471 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:06:20,593 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:06:20,706 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:06:20,829 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:06:20,922 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:06:21,208 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:06:21,293 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:06:21,513 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:06:21,617 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:06:21,880 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:06:21,985 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:06:22,178 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:07:19,886 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:08:20,129 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:09:20,409 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:10:20,715 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:10:20,771 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:10:20,920 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:10:21,004 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:10:21,105 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:10:21,190 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:10:21,478 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:10:21,567 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:10:21,656 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:10:21,747 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:10:21,850 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:10:21,940 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:10:22,238 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:10:22,317 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:10:22,538 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:10:22,620 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:10:22,837 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:10:22,929 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:10:23,108 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:11:21,025 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:12:21,295 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:13:21,548 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:14:21,833 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:14:21,880 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:14:22,070 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:14:22,169 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:14:22,274 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:14:22,361 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:14:22,653 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:14:22,736 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:14:22,832 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:14:22,913 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:14:23,011 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:14:23,086 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:14:23,395 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:14:23,491 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:14:23,732 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:14:23,821 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:14:24,067 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:14:24,159 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:14:24,336 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:15:22,169 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:15:22,252 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:15:22,589 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:15:22,672 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:15:23,013 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:15:23,114 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:15:23,412 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:16:22,508 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:17:22,785 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:18:23,073 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:18:23,092 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:18:23,304 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:18:23,400 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:18:23,495 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:18:23,572 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:18:23,913 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:18:24,015 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:18:24,103 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:18:24,206 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:18:24,314 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:18:24,414 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:18:24,744 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:18:24,840 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:18:25,113 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:18:25,270 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:18:25,532 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:18:25,639 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:18:25,861 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:19:23,356 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:20:23,619 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:21:23,871 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:22:24,158 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:22:24,164 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:22:24,395 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:22:24,504 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:22:24,605 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:22:24,705 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:22:25,058 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:22:25,176 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:22:25,277 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:22:25,372 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:22:25,453 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:22:25,576 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:22:25,955 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:22:26,052 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:22:26,284 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:22:26,376 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:22:26,620 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:22:26,709 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:22:26,921 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:23:24,418 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:24:24,675 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:25:24,942 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:26:25,244 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:26:25,309 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:26:25,486 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:26:25,583 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:26:25,700 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:26:25,782 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:26:26,055 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:26:26,137 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:26:26,232 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:26:26,324 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:26:26,419 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:26:26,508 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:26:26,844 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:26:26,932 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:26:27,155 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:26:27,235 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:26:27,461 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:26:27,575 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:26:27,887 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:27:25,658 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:28:25,932 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:29:26,181 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:30:26,439 INFO scheduler Scheduled Job Start: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for site1.local
+2021-10-27 23:30:26,523 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for site1.local
+2021-10-27 23:30:27,194 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.connectors.shopify_connection.sync_old_orders for site1.local
+2021-10-27 23:30:27,198 INFO scheduler Scheduled Job Failed: erpnext.stock.doctype.repost_item_valuation.repost_item_valuation.repost_entries for site1.local
+2021-10-27 23:30:27,203 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:30:27,302 INFO scheduler Scheduled Job Start: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for site1.local
+2021-10-27 23:30:27,672 INFO scheduler Scheduled Job Complete: erpnext.support.doctype.issue.issue.set_service_level_agreement_variance for site1.local
+2021-10-27 23:30:27,815 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for site1.local
+2021-10-27 23:30:28,234 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.shift_type.shift_type.process_auto_attendance_for_all_shifts for site1.local
+2021-10-27 23:30:28,370 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.collect_project_status for site1.local
+2021-10-27 23:30:28,856 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.collect_project_status for site1.local
+2021-10-27 23:30:28,982 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.hourly_reminder for site1.local
+2021-10-27 23:30:29,358 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.hourly_reminder for site1.local
+2021-10-27 23:30:29,462 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for site1.local
+2021-10-27 23:30:29,896 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization for site1.local
+2021-10-27 23:30:30,018 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for site1.local
+2021-10-27 23:30:30,448 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_docs for site1.local
+2021-10-27 23:30:30,576 INFO scheduler Scheduled Job Start: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for site1.local
+2021-10-27 23:30:30,939 INFO scheduler Scheduled Job Complete: erpnext.erpnext_integrations.doctype.amazon_mws_settings.amazon_mws_settings.schedule_get_order_details for site1.local
+2021-10-27 23:30:31,060 INFO scheduler Scheduled Job Start: erpnext.accounts.doctype.subscription.subscription.process_all for site1.local
+2021-10-27 23:30:31,386 INFO scheduler Scheduled Job Complete: erpnext.accounts.doctype.subscription.subscription.process_all for site1.local
+2021-10-27 23:30:31,507 INFO scheduler Scheduled Job Start: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for site1.local
+2021-10-27 23:30:31,818 INFO scheduler Scheduled Job Complete: erpnext.hr.doctype.daily_work_summary_group.daily_work_summary_group.trigger_emails for site1.local
+2021-10-27 23:30:31,944 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:30:32,167 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:30:32,296 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:30:32,427 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:30:32,531 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:30:32,883 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:30:33,040 INFO scheduler Scheduled Job Start: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 23:30:33,507 INFO scheduler Scheduled Job Failed: erpnext.utilities.doctype.video.video.update_youtube_data for site1.local
+2021-10-27 23:30:33,665 INFO scheduler Scheduled Job Start: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for site1.local
+2021-10-27 23:30:34,135 INFO scheduler Scheduled Job Complete: frappe.email.doctype.newsletter.newsletter.send_scheduled_email for site1.local
+2021-10-27 23:30:34,245 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.google_calendar.google_calendar.sync for site1.local
+2021-10-27 23:30:34,783 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.google_calendar.google_calendar.sync for site1.local
+2021-10-27 23:30:34,869 INFO scheduler Scheduled Job Start: frappe.desk.form.document_follow.send_hourly_updates for site1.local
+2021-10-27 23:30:35,149 INFO scheduler Scheduled Job Complete: frappe.desk.form.document_follow.send_hourly_updates for site1.local
+2021-10-27 23:30:35,252 INFO scheduler Scheduled Job Start: frappe.deferred_insert.save_to_db for site1.local
+2021-10-27 23:30:35,520 INFO scheduler Scheduled Job Complete: frappe.deferred_insert.save_to_db for site1.local
+2021-10-27 23:30:35,639 INFO scheduler Scheduled Job Start: frappe.desk.page.backups.backups.delete_downloadable_backups for site1.local
+2021-10-27 23:30:35,926 INFO scheduler Scheduled Job Complete: frappe.desk.page.backups.backups.delete_downloadable_backups for site1.local
+2021-10-27 23:30:36,075 INFO scheduler Scheduled Job Start: frappe.utils.error.collect_error_snapshots for site1.local
+2021-10-27 23:30:36,460 INFO scheduler Scheduled Job Complete: frappe.utils.error.collect_error_snapshots for site1.local
+2021-10-27 23:30:36,569 INFO scheduler Scheduled Job Start: frappe.model.utils.user_settings.sync_user_settings for site1.local
+2021-10-27 23:30:36,955 INFO scheduler Scheduled Job Complete: frappe.model.utils.user_settings.sync_user_settings for site1.local
+2021-10-27 23:30:37,076 INFO scheduler Scheduled Job Start: frappe.model.utils.link_count.update_link_count for site1.local
+2021-10-27 23:30:37,348 INFO scheduler Scheduled Job Complete: frappe.model.utils.link_count.update_link_count for site1.local
+2021-10-27 23:30:37,433 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:30:37,526 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:30:37,612 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:30:37,717 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:30:37,817 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:30:38,210 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:30:38,334 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:30:38,614 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:30:38,716 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:30:39,029 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:30:39,155 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:30:39,390 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:30:39,508 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:30:39,864 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:30:39,982 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:30:40,336 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:30:40,448 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:30:40,859 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:31:27,510 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:32:27,787 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:33:28,024 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:34:28,343 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:34:28,402 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:34:28,622 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:34:28,747 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:34:28,886 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:34:29,037 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:34:29,399 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:34:29,505 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:34:29,629 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:34:29,722 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:34:29,824 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:34:29,942 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:34:30,291 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:34:30,379 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:34:30,607 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:34:30,721 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:34:30,983 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:34:31,078 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:34:31,269 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:35:28,698 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:36:28,979 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:37:29,275 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:38:29,675 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:38:29,858 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:38:29,953 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:38:30,030 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:38:30,157 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:38:30,226 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:38:30,572 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:38:30,673 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:38:30,811 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:38:30,901 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:38:31,023 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:38:31,121 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:38:31,534 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:38:31,631 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:38:31,886 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:38:31,968 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:38:32,242 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:38:32,315 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:38:32,523 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:39:30,172 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:40:30,523 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:41:30,817 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:42:31,059 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:42:31,136 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:42:31,305 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:42:31,377 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:42:31,524 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:42:31,608 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:42:32,080 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 23:42:32,219 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 23:42:32,354 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 23:42:32,451 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:42:32,610 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 23:42:32,697 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:42:33,100 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 23:42:33,212 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:42:33,646 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 23:42:33,756 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:42:34,067 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 23:42:34,164 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 23:42:34,403 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local
+2021-10-27 23:43:31,480 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:44:31,730 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:45:31,996 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:45:32,044 INFO scheduler Scheduled Job Start: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:45:32,358 INFO scheduler Scheduled Job Complete: frappe.twofactor.delete_all_barcodes_for_users for site1.local
+2021-10-27 23:45:32,447 INFO scheduler Scheduled Job Start: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:45:32,836 INFO scheduler Scheduled Job Complete: frappe.website.doctype.web_page.web_page.check_publish_status for site1.local
+2021-10-27 23:45:32,941 INFO scheduler Scheduled Job Start: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:45:33,336 INFO scheduler Scheduled Job Complete: frappe.oauth.delete_oauth2_data for site1.local
+2021-10-27 23:46:32,267 INFO scheduler Scheduled Job Start: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:46:32,338 DEBUG scheduler Queued events for site site1.local
+2021-10-27 23:46:32,490 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.social_media_post.social_media_post.process_scheduled_social_media_posts for site1.local
+2021-10-27 23:46:32,558 INFO scheduler Scheduled Job Start: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:46:32,674 INFO scheduler Scheduled Job Complete: erpnext.healthcare.doctype.patient_appointment.patient_appointment.send_appointment_reminder for site1.local
+2021-10-27 23:47:32,584 DEBUG scheduler Queued events for site site1.local

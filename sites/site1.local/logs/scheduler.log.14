@@ -1,0 +1,7 @@
+2021-10-27 21:30:52,893 INFO scheduler Scheduled Job Complete: erpnext.crm.doctype.contract.contract.update_status_for_contracts for site1.local
+2021-10-27 21:30:53,009 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.make_post_gl_entry for site1.local
+2021-10-27 21:30:53,494 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.make_post_gl_entry for site1.local
+2021-10-27 21:30:53,610 INFO scheduler Scheduled Job Start: erpnext.assets.doctype.asset.asset.update_maintenance_status for site1.local
+2021-10-27 21:30:54,035 INFO scheduler Scheduled Job Complete: erpnext.assets.doctype.asset.asset.update_maintenance_status for site1.local
+2021-10-27 21:30:54,118 INFO scheduler Scheduled Job Start: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for site1.local
+2021-10-27 21:30:54,519 INFO scheduler Scheduled Job Complete: erpnext.setup.doctype.company.company.cache_companies_monthly_sales_history for site1.local

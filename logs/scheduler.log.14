@@ -1,0 +1,14 @@
+2021-10-27 19:03:00,231 INFO scheduler Scheduled Job Start: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 19:03:00,564 INFO scheduler Scheduled Job Complete: erpnext.projects.doctype.project.project.project_status_update_reminder for site1.local
+2021-10-27 19:03:00,693 INFO scheduler Scheduled Job Start: frappe.monitor.flush for site1.local
+2021-10-27 19:03:00,788 INFO scheduler Scheduled Job Complete: frappe.monitor.flush for site1.local
+2021-10-27 19:03:00,906 INFO scheduler Scheduled Job Start: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 19:03:01,001 INFO scheduler Scheduled Job Complete: frappe.utils.global_search.sync_global_search for site1.local
+2021-10-27 19:03:01,153 INFO scheduler Scheduled Job Start: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 19:03:01,533 INFO scheduler Scheduled Job Complete: frappe.integrations.doctype.razorpay_settings.razorpay_settings.capture_payment for site1.local
+2021-10-27 19:03:01,641 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 19:03:01,897 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for site1.local
+2021-10-27 19:03:01,997 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 19:03:02,259 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for site1.local
+2021-10-27 19:03:02,428 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for site1.local
+2021-10-27 19:03:02,693 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for site1.local

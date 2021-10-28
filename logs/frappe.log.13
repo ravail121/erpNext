@@ -1,0 +1,828 @@
+2021-07-27 12:34:06,319 ERROR frappe New Exception collected with id: 2021-07-27 12:34:06.314960-59.103.106.51-6f3
+Site: site1.local
+Form Dict: {'reference_doctype': 'POS Profile', 'reference_name': 'Osaid', 'content': 'text message from postman', 'comment_by': 'Ravail', 'cmd': 'frappe.desk.form.utils.add_comment'}
+2021-07-28 08:57:55,820 ERROR frappe New Exception collected with id: 2021-07-28 08:57:55.289486-42.201.135.195-81a
+Site: site1.local
+Form Dict: {'start': '0', 'page_length': '40', 'price_list': 'Standard Selling', 'item_group': 'All Item Groups', 'search_term': '', 'cmd': 'erpnext.selling.page.point_of_sale.point_of_sale.get_items'}
+2021-07-28 08:59:48,932 ERROR frappe New Exception collected with id: 2021-07-28 08:59:48.759026-42.201.135.195-34a
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'Item Group', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '{"pos_profile":""}', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 09:03:36,833 ERROR frappe New Exception collected with id: 2021-07-28 09:03:36.690440-42.201.135.195-320
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'Customer', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'query': 'erpnext.selling.page.point_of_sale.point_of_sale.item_group_query', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 09:03:46,462 ERROR frappe New Exception collected with id: 2021-07-28 09:03:46.456941-42.201.135.195-47a
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'Customer', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'query': 'erpnext.controllers.queries.customer_query', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 11:35:47,378 ERROR frappe New Exception collected with id: 2021-07-28 11:35:47.011252-42.201.135.195-6de
+Site: site1.local
+Form Dict: {}
+2021-07-28 11:35:47,903 ERROR frappe New Exception collected with id: 2021-07-28 11:35:47.739833-42.201.135.195-f36
+Site: site1.local
+Form Dict: {}
+2021-07-28 11:44:27,397 ERROR frappe New Exception collected with id: 2021-07-28 11:44:27.231843-42.201.135.195-5ef
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'User', 'ignore_user_permissions': '0', 'reference_doctype': '', 'query': 'erpnext.controllers.queries.customer_query', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 11:48:41,812 ERROR frappe New Exception collected with id: 2021-07-28 11:48:41.628761-42.201.135.195-b2d
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'Item Group', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '{"pos_profile":""}', 'query': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 15:10:59,590 ERROR frappe New Exception collected with id: 2021-07-28 15:10:59.052494-42.201.135.195-419
+Site: site1.local
+Form Dict: {'doctype': 'Customer', 'filters': '', 'ignore_user_permissions': '0', 'query': 'erpnext.controllers.queries.customer_query', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 15:11:46,014 ERROR frappe New Exception collected with id: 2021-07-28 15:11:45.836271-42.201.135.195-5cc
+Site: site1.local
+Form Dict: {'doctype': 'Customer', 'filters': '', 'ignore_user_permissions': '0', 'query': 'erpnext.controllers.queries.customer_query', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 15:14:14,581 ERROR frappe New Exception collected with id: 2021-07-28 15:14:14.574157-42.201.135.195-2c8
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'Customer', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'query': 'erpnext.controllers.queries.customer_query', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-28 15:14:25,422 ERROR frappe New Exception collected with id: 2021-07-28 15:14:25.417899-42.201.135.195-6aa
+Site: site1.local
+Form Dict: {'doctype': 'Customer', 'filters': '', 'ignore_user_permissions': '0', 'query': 'erpnext.controllers.queries.customer_query', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-29 09:32:22,433 ERROR frappe New Exception collected with id: 2021-07-29 09:32:21.746103-59.103.106.51-091
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'UOM', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'query': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-29 09:32:27,552 ERROR frappe New Exception collected with id: 2021-07-29 09:32:27.547872-59.103.106.51-cd4
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'UOM', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-29 09:32:32,938 ERROR frappe New Exception collected with id: 2021-07-29 09:32:32.931167-59.103.106.51-365
+Site: site1.local
+Form Dict: {'txt': '', 'doctype': 'UOM', 'ignore_user_permissions': '0', 'reference_doctype': '', 'filters': '', 'query': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-29 15:51:36,742 ERROR frappe New Exception collected with id: 2021-07-29 15:51:36.737055-59.103.106.51-c58
+Site: site1.local
+Form Dict: {'selling_price_list': 'selling_price_list', 'filters': '', 'doctype': 'POS Profile', 'cmd': 'frappe.client.get_value'}
+2021-07-29 15:53:45,240 ERROR frappe New Exception collected with id: 2021-07-29 15:53:45.232877-59.103.106.51-32d
+Site: site1.local
+Form Dict: {'docs': '{\n        "name": "testrav",\n        "owner": "Administrator",\n        "creation": "2021-06-23 16:11:36.841531",\n        "modified": "2021-07-28 20:23:23.168724",\n        "modified_by": "rvlirshad@gmail.com",\n        "parent": null,\n        "parentfield": null,\n        "parenttype": null,\n        "idx": 0,\n        "docstatus": 0,\n        "company": "Izat Afghan Limited",\n        "customer": null,\n        "country": "Afghanistan",\n        "disabled": 0,\n        "warehouse": "Ehsan Veh - IAL",\n        "campaign": null,\n        "company_address": null,\n        "hide_images": 1,\n        "hide_unavailable_items": 0,\n        "auto_add_item_to_cart": 0,\n        "update_stock": 1,\n        "ignore_pricing_rule": 0,\n        "allow_rate_change": 0,\n        "allow_discount_change": 0,\n        "print_format": null,\n        "letter_head": "Izat Afghan",\n        "tc_name": null,\n        "select_print_heading": null,\n        "selling_price_list": "Standard Selling",\n        "currency": "USD",\n        "write_off_account": "Test Ravail Account - IAL",\n        "write_off_cost_center": "Test Ravail Cost Center - IAL",\n        "account_for_change_amount": null,\n        "income_account": null,\n        "expense_account": null,\n        "taxes_and_charges": null,\n        "tax_category": null,\n        "apply_discount_on": "Grand Total",\n        "cost_center": null,\n        "doctype": "POS Profile",\n        "applicable_for_users": [\n            {\n                "name": "e5df951a05",\n                "owner": "Administrator",\n                "creation": "2021-06-23 16:11:36.841531",\n                "modified": "2021-07-28 20:23:23.168724",\n                "modified_by": "rvlirshad@gmail.com",\n                "parent": "testrav",\n                "parentfield": "applicable_for_users",\n                "parenttype": "POS Profile",\n                "idx": 1,\n                "docstatus": 0,\n                "default": 0,\n                "user": "rvlirshad@gmail.com",\n                "doctype": "POS Profile User"\n            }\n        ],\n        "payments": [\n            {\n                "name": "a5f81eb5d0",\n                "owner": "Administrator",\n                "creation": "2021-06-23 16:11:36.841531",\n                "modified": "2021-07-28 20:23:23.168724",\n                "modified_by": "rvlirshad@gmail.com",\n                "parent": "testrav",\n                "parentfield": "payments",\n                "parenttype": "POS Profile",\n                "idx": 1,\n                "docstatus": 0,\n                "default": 1,\n                "allow_in_returns": 0,\n                "mode_of_payment": "Cash",\n                "doctype": "POS Payment Method"\n            }', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 09:56:07,244 ERROR frappe New Exception collected with id: 2021-07-30 09:56:07.239230-59.103.106.51-411
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","naming_series":"ACC-PSINV-.YYYY.-","is_pos":1,"is_return":0,"update_billed_amount_in_sales_order":0,"company":"Izat+Afghan+Limited","posting_date":"2021-07-30","set_posting_time":0,"territory":"Baharistan","currency":"USD","selling_price_list":"Standard+Selling","price_list_currency":"USD","ignore_pricing_rule":0,"update_stock":1,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand+Total","allocate_advances_automatically":0,"write_off_outstanding_amount_automatically":0,"letter_head":"Izat+Afghan","group_same_items":0,"customer_group":"Kefayatullah","is_discounted":0,"status":"Draft","is_opening":"No","c_form_applicable":"No","items":[{"docstatus":0,"doctype":"POS+Invoice+Item","name":"new-pos-invoice-item-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","stock_uom":"Carton","margin_type":"","is_free_item":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"cost_center":"Main+-+IAL","page_break":0,"parent":"new-pos-invoice-2","parentfield":"items","parenttype":"POS+Invoice","idx":1,"item_code":"1221","rate":"2","qty":1,"barcode":null}],"pos_profile":"Osaid+","idx":0,"conversion_rate":1,"plc_conversion_rate":1,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","total_qty":0,"base_total":0,"base_net_total":0,"total":0,"net_total":0,"total_net_weight":0,"base_total_taxes_and_charges":0,"total_taxes_and_charges":0,"loyalty_points":0,"loyalty_amount":0,"base_discount_amount":0,"additional_discount_percentage":0,"discount_amount":0,"base_grand_total":0,"base_rounding_adjustment":0,"base_rounded_total":0,"grand_total":0,"rounding_adjustment":0,"rounded_total":0,"total_advance":0,"outstanding_amount":0,"base_paid_amount":15,"paid_amount":15,"base_change_amount":15,"change_amount":15,"account_for_change_amount":"Cash+-+IAL","write_off_amount":0,"base_write_off_amount":0,"write_off_account":"Test+Ravail+Account+-+IAL","write_off_cost_center":"Test+Ravail+Cost+Center+-+IAL","commission_rate":0,"total_commission":0,"pricing_rules":[],"packed_items":[],"timesheets":[],"taxes":[],"advances":[],"payment_schedule":[],"payments":[{"parent":"new-pos-invoice-2","parentfield":"payments","parenttype":"POS+Invoice","idx":1,"docstatus":0,"default":1,"mode_of_payment":"Cash","amount":15,"account":"Cash+-+IAL","type":"Cash","base_amount":15,"doctype":"Sales+Invoice+Payment","__islocal":1,"name":"new-sales-invoice-payment-2"}],"sales_team":[{"docstatus":0,"doctype":"Sales+Team","name":"new-sales-team-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","parent":"new-pos-invoice-2","parentfield":"sales_team","parenttype":"POS+Invoice","idx":1,"sales_person":"Kefayatullah","allocated_percentage":100}],"campaign":null,"party_account_currency":"USD","customer":"0772128832","in_words":"","base_in_words":"","debit_to":"Kefayatullah+A/R+-+IAL","due_date":"2021-07-30","customer_address":null,"address_display":null,"shipping_address_name":"","shipping_address":null,"company_address":null,"company_address_display":null,"contact_person":"0772128832-0772128832","contact_display":"0772128832","contact_email":"","contact_mobile":"0772128832","customer_name":"0772128832","language":"en","tax_category":"","taxes_and_charges":null,"payment_terms_template":null,"posting_time":"12:02:51","loyalty_program":null}', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2021-07-30 09:56:16,064 ERROR frappe New Exception collected with id: 2021-07-30 09:56:15.920111-59.103.106.51-457
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","naming_series":"ACC-PSINV-.YYYY.-","is_pos":1,"is_return":0,"update_billed_amount_in_sales_order":0,"company":"Izat+Afghan+Limited","posting_date":"2021-07-30","set_posting_time":0,"territory":"Baharistan","currency":"USD","selling_price_list":"Standard+Selling","price_list_currency":"USD","ignore_pricing_rule":0,"update_stock":1,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand+Total","allocate_advances_automatically":0,"write_off_outstanding_amount_automatically":0,"letter_head":"Izat+Afghan","group_same_items":0,"customer_group":"Kefayatullah","is_discounted":0,"status":"Draft","is_opening":"No","c_form_applicable":"No","items":[{"docstatus":0,"doctype":"POS+Invoice+Item","name":"new-pos-invoice-item-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","stock_uom":"Carton","margin_type":"","is_free_item":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"cost_center":"Main+-+IAL","page_break":0,"parent":"new-pos-invoice-2","parentfield":"items","parenttype":"POS+Invoice","idx":1,"item_code":"1221","rate":"2","qty":1,"barcode":null}],"pos_profile":"Osaid+","idx":0,"conversion_rate":1,"plc_conversion_rate":1,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","total_qty":0,"base_total":0,"base_net_total":0,"total":0,"net_total":0,"total_net_weight":0,"base_total_taxes_and_charges":0,"total_taxes_and_charges":0,"loyalty_points":0,"loyalty_amount":0,"base_discount_amount":0,"additional_discount_percentage":0,"discount_amount":0,"base_grand_total":0,"base_rounding_adjustment":0,"base_rounded_total":0,"grand_total":0,"rounding_adjustment":0,"rounded_total":0,"total_advance":0,"outstanding_amount":0,"base_paid_amount":15,"paid_amount":15,"base_change_amount":15,"change_amount":15,"account_for_change_amount":"Cash+-+IAL","write_off_amount":0,"base_write_off_amount":0,"write_off_account":"Test+Ravail+Account+-+IAL","write_off_cost_center":"Test+Ravail+Cost+Center+-+IAL","commission_rate":0,"total_commission":0,"pricing_rules":[],"packed_items":[],"timesheets":[],"taxes":[],"advances":[],"payment_schedule":[],"payments":[{"parent":"new-pos-invoice-2","parentfield":"payments","parenttype":"POS+Invoice","idx":1,"docstatus":0,"default":1,"mode_of_payment":"Cash","amount":15,"account":"Cash+-+IAL","type":"Cash","base_amount":15,"doctype":"Sales+Invoice+Payment","__islocal":1,"name":"new-sales-invoice-payment-2"}],"sales_team":[{"docstatus":0,"doctype":"Sales+Team","name":"new-sales-team-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","parent":"new-pos-invoice-2","parentfield":"sales_team","parenttype":"POS+Invoice","idx":1,"sales_person":"Kefayatullah","allocated_percentage":100}],"campaign":null,"party_account_currency":"USD","customer":"0772128832","in_words":"","base_in_words":"","debit_to":"Kefayatullah+A/R+-+IAL","due_date":"2021-07-30","customer_address":null,"address_display":null,"shipping_address_name":"","shipping_address":null,"company_address":null,"company_address_display":null,"contact_person":"0772128832-0772128832","contact_display":"0772128832","contact_email":"","contact_mobile":"0772128832","customer_name":"0772128832","language":"en","tax_category":"","taxes_and_charges":null,"payment_terms_template":null,"posting_time":"12:02:51","loyalty_program":null}', 'args': '', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2021-07-30 09:58:00,379 ERROR frappe New Exception collected with id: 2021-07-30 09:57:59.766759-59.103.106.51-d39
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","naming_series":"ACC-PSINV-.YYYY.-","is_pos":1,"is_return":0,"update_billed_amount_in_sales_order":0,"company":"Izat+Afghan+Limited","posting_date":"2021-07-30","set_posting_time":0,"territory":"Baharistan","currency":"USD","selling_price_list":"Standard+Selling","price_list_currency":"USD","ignore_pricing_rule":0,"update_stock":1,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand+Total","allocate_advances_automatically":0,"write_off_outstanding_amount_automatically":0,"letter_head":"Izat+Afghan","group_same_items":0,"customer_group":"Kefayatullah","is_discounted":0,"status":"Draft","is_opening":"No","c_form_applicable":"No","items":[{"docstatus":0,"doctype":"POS+Invoice+Item","name":"new-pos-invoice-item-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","stock_uom":"Carton","margin_type":"","is_free_item":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"cost_center":"Main+-+IAL","page_break":0,"parent":"new-pos-invoice-2","parentfield":"items","parenttype":"POS+Invoice","idx":1,"item_code":"1221","rate":"2","qty":1,"barcode":null}],"pos_profile":"Osaid+","idx":0,"conversion_rate":1,"plc_conversion_rate":1,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","total_qty":0,"base_total":0,"base_net_total":0,"total":0,"net_total":0,"total_net_weight":0,"base_total_taxes_and_charges":0,"total_taxes_and_charges":0,"loyalty_points":0,"loyalty_amount":0,"base_discount_amount":0,"additional_discount_percentage":0,"discount_amount":0,"base_grand_total":0,"base_rounding_adjustment":0,"base_rounded_total":0,"grand_total":0,"rounding_adjustment":0,"rounded_total":0,"total_advance":0,"outstanding_amount":0,"base_paid_amount":15,"paid_amount":15,"base_change_amount":15,"change_amount":15,"account_for_change_amount":"Cash+-+IAL","write_off_amount":0,"base_write_off_amount":0,"write_off_account":"Test+Ravail+Account+-+IAL","write_off_cost_center":"Test+Ravail+Cost+Center+-+IAL","commission_rate":0,"total_commission":0,"pricing_rules":[],"packed_items":[],"timesheets":[],"taxes":[],"advances":[],"payment_schedule":[],"payments":[{"parent":"new-pos-invoice-2","parentfield":"payments","parenttype":"POS+Invoice","idx":1,"docstatus":0,"default":1,"mode_of_payment":"Cash","amount":15,"account":"Cash+-+IAL","type":"Cash","base_amount":15,"doctype":"Sales+Invoice+Payment","__islocal":1,"name":"new-sales-invoice-payment-2"}],"sales_team":[{"docstatus":0,"doctype":"Sales+Team","name":"new-sales-team-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","parent":"new-pos-invoice-2","parentfield":"sales_team","parenttype":"POS+Invoice","idx":1,"sales_person":"Kefayatullah","allocated_percentage":100}],"campaign":null,"party_account_currency":"USD","customer":"0772128832","in_words":"","base_in_words":"","debit_to":"Kefayatullah+A/R+-+IAL","due_date":"2021-07-30","customer_address":null,"address_display":null,"shipping_address_name":"","shipping_address":null,"company_address":null,"company_address_display":null,"contact_person":"0772128832-0772128832","contact_display":"0772128832","contact_email":"","contact_mobile":"0772128832","customer_name":"0772128832","language":"en","tax_category":"","taxes_and_charges":null,"payment_terms_template":null,"posting_time":"12:02:51","loyalty_program":null}', 'args': '{"item_code" :"1221","company":"Izat Afghan Limited"}', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2021-07-30 10:13:43,989 ERROR frappe New Exception collected with id: 2021-07-30 10:13:43.983747-59.103.106.51-405
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","naming_series":"ACC-PSINV-.YYYY.-","is_pos":1,"is_return":0,"update_billed_amount_in_sales_order":0,"company":"Izat+Afghan+Limited","posting_date":"2021-07-30","set_posting_time":0,"territory":"Baharistan","currency":"USD","selling_price_list":"Standard+Selling","price_list_currency":"USD","ignore_pricing_rule":0,"update_stock":1,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand+Total","allocate_advances_automatically":0,"write_off_outstanding_amount_automatically":0,"letter_head":"Izat+Afghan","group_same_items":0,"customer_group":"Kefayatullah","is_discounted":0,"status":"Draft","is_opening":"No","c_form_applicable":"No","items":[{"docstatus":0,"doctype":"POS+Invoice+Item","name":"new-pos-invoice-item-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","stock_uom":"Carton","margin_type":"","is_free_item":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"cost_center":"Main+-+IAL","page_break":0,"parent":"new-pos-invoice-2","parentfield":"items","parenttype":"POS+Invoice","idx":1,"item_code":"1221","rate":"2","qty":1,"barcode":null}],"pos_profile":"Osaid+","idx":0,"conversion_rate":1,"plc_conversion_rate":1,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","total_qty":0,"base_total":0,"base_net_total":0,"total":0,"net_total":0,"total_net_weight":0,"base_total_taxes_and_charges":0,"total_taxes_and_charges":0,"loyalty_points":0,"loyalty_amount":0,"base_discount_amount":0,"additional_discount_percentage":0,"discount_amount":0,"base_grand_total":0,"base_rounding_adjustment":0,"base_rounded_total":0,"grand_total":0,"rounding_adjustment":0,"rounded_total":0,"total_advance":0,"outstanding_amount":0,"base_paid_amount":15,"paid_amount":15,"base_change_amount":15,"change_amount":15,"account_for_change_amount":"Cash+-+IAL","write_off_amount":0,"base_write_off_amount":0,"write_off_account":"Test+Ravail+Account+-+IAL","write_off_cost_center":"Test+Ravail+Cost+Center+-+IAL","commission_rate":0,"total_commission":0,"pricing_rules":[],"packed_items":[],"timesheets":[],"taxes":[],"advances":[],"payment_schedule":[],"payments":[{"parent":"new-pos-invoice-2","parentfield":"payments","parenttype":"POS+Invoice","idx":1,"docstatus":0,"default":1,"mode_of_payment":"Cash","amount":15,"account":"Cash+-+IAL","type":"Cash","base_amount":15,"doctype":"Sales+Invoice+Payment","__islocal":1,"name":"new-sales-invoice-payment-2"}],"sales_team":[{"docstatus":0,"doctype":"Sales+Team","name":"new-sales-team-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","parent":"new-pos-invoice-2","parentfield":"sales_team","parenttype":"POS+Invoice","idx":1,"sales_person":"Kefayatullah","allocated_percentage":100}],"campaign":null,"party_account_currency":"USD","customer":"0772128832","in_words":"","base_in_words":"","debit_to":"Kefayatullah+A/R+-+IAL","due_date":"2021-07-30","customer_address":null,"address_display":null,"shipping_address_name":"","shipping_address":null,"company_address":null,"company_address_display":null,"contact_person":"0772128832-0772128832","contact_display":"0772128832","contact_email":"","contact_mobile":"0772128832","customer_name":"0772128832","language":"en","tax_category":"","taxes_and_charges":null,"payment_terms_template":null,"posting_time":"12:02:51","loyalty_program":null}', 'args': '{"item_code":"1221","barcode":null,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","customer":"0772128832","currency":"USD","update_stock":0,"conversion_rate":1,"price_list":"Standard+Selling","price_list_currency":"USD","plc_conversion_rate":1,"company":"Izat+Afghan+Limited","is_pos":1,"is_return":0,"transaction_date":"2021-07-30","ignore_pricing_rule":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","qty":1,"net_rate":"2","stock_uom":"Carton","pos_profile":"Osaid+","cost_center":"Main - \n IAL","tax_category":"","child_docname":"new-pos-invoice-item-4"}', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2021-07-30 10:13:55,097 ERROR frappe New Exception collected with id: 2021-07-30 10:13:55.028521-59.103.106.51-405
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","naming_series":"ACC-PSINV-.YYYY.-","is_pos":1,"is_return":0,"update_billed_amount_in_sales_order":0,"company":"Izat+Afghan+Limited","posting_date":"2021-07-30","set_posting_time":0,"territory":"Baharistan","currency":"USD","selling_price_list":"Standard+Selling","price_list_currency":"USD","ignore_pricing_rule":0,"update_stock":1,"total_billing_amount":0,"redeem_loyalty_points":0,"apply_discount_on":"Grand+Total","allocate_advances_automatically":0,"write_off_outstanding_amount_automatically":0,"letter_head":"Izat+Afghan","group_same_items":0,"customer_group":"Kefayatullah","is_discounted":0,"status":"Draft","is_opening":"No","c_form_applicable":"No","items":[{"docstatus":0,"doctype":"POS+Invoice+Item","name":"new-pos-invoice-item-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","stock_uom":"Carton","margin_type":"","is_free_item":0,"delivered_by_supplier":0,"is_fixed_asset":0,"enable_deferred_revenue":0,"allow_zero_valuation_rate":0,"cost_center":"Main+-+IAL","page_break":0,"parent":"new-pos-invoice-2","parentfield":"items","parenttype":"POS+Invoice","idx":1,"item_code":"1221","rate":"2","qty":1,"barcode":null}],"pos_profile":"Osaid+","idx":0,"conversion_rate":1,"plc_conversion_rate":1,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","total_qty":0,"base_total":0,"base_net_total":0,"total":0,"net_total":0,"total_net_weight":0,"base_total_taxes_and_charges":0,"total_taxes_and_charges":0,"loyalty_points":0,"loyalty_amount":0,"base_discount_amount":0,"additional_discount_percentage":0,"discount_amount":0,"base_grand_total":0,"base_rounding_adjustment":0,"base_rounded_total":0,"grand_total":0,"rounding_adjustment":0,"rounded_total":0,"total_advance":0,"outstanding_amount":0,"base_paid_amount":15,"paid_amount":15,"base_change_amount":15,"change_amount":15,"account_for_change_amount":"Cash+-+IAL","write_off_amount":0,"base_write_off_amount":0,"write_off_account":"Test+Ravail+Account+-+IAL","write_off_cost_center":"Test+Ravail+Cost+Center+-+IAL","commission_rate":0,"total_commission":0,"pricing_rules":[],"packed_items":[],"timesheets":[],"taxes":[],"advances":[],"payment_schedule":[],"payments":[{"parent":"new-pos-invoice-2","parentfield":"payments","parenttype":"POS+Invoice","idx":1,"docstatus":0,"default":1,"mode_of_payment":"Cash","amount":15,"account":"Cash+-+IAL","type":"Cash","base_amount":15,"doctype":"Sales+Invoice+Payment","__islocal":1,"name":"new-sales-invoice-payment-2"}],"sales_team":[{"docstatus":0,"doctype":"Sales+Team","name":"new-sales-team-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","parent":"new-pos-invoice-2","parentfield":"sales_team","parenttype":"POS+Invoice","idx":1,"sales_person":"Kefayatullah","allocated_percentage":100}],"campaign":null,"party_account_currency":"USD","customer":"0772128832","in_words":"","base_in_words":"","debit_to":"Kefayatullah+A/R+-+IAL","due_date":"2021-07-30","customer_address":null,"address_display":null,"shipping_address_name":"","shipping_address":null,"company_address":null,"company_address_display":null,"contact_person":"0772128832-0772128832","contact_display":"0772128832","contact_email":"","contact_mobile":"0772128832","customer_name":"0772128832","language":"en","tax_category":"","taxes_and_charges":null,"payment_terms_template":null,"posting_time":"12:02:51","loyalty_program":null}', 'args': '{"item_code":"1221","barcode":null,"set_warehouse":"Testing+Ravail+Warehouse+-+IAL","customer":"0772128832","currency":"USD","update_stock":0,"conversion_rate":1,"price_list":"Standard+Selling","price_list_currency":"USD","plc_conversion_rate":1,"company":"Izat+Afghan+Limited","is_pos":1,"is_return":0,"transaction_date":"2021-07-30","ignore_pricing_rule":0,"doctype":"POS+Invoice","name":"new-pos-invoice-2","qty":1,"net_rate":"2","stock_uom":"Carton","pos_profile":"Osaid+","cost_center":"Main - \nIAL","tax_category":"","child_docname":"new-pos-invoice-item-4"}', 'cmd': 'erpnext.stock.get_item_details.get_item_details'}
+2021-07-30 12:16:52,605 ERROR frappe New Exception collected with id: 2021-07-30 12:16:52.598246-42.201.135.195-125
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"Osaid ","posting_date":"2021-16-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:17:38,202 ERROR frappe New Exception collected with id: 2021-07-30 12:17:38.194185-42.201.135.195-7ee
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"Osaid ","posting_date":"2021-16-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:20:02,254 ERROR frappe New Exception collected with id: 2021-07-30 12:20:02.243952-42.201.135.195-74a
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"Osaid ","posting_date":"2021-16-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:20:29,604 ERROR frappe New Exception collected with id: 2021-07-30 12:20:29.599016-59.103.106.51-0c5
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"Osaid ","posting_date":"2021-16-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:21:04,046 ERROR frappe New Exception collected with id: 2021-07-30 12:21:04.041946-59.103.106.51-a66
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"testrav ","posting_date":"2021-16-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:21:55,308 ERROR frappe New Exception collected with id: 2021-07-30 12:21:55.303995-59.103.106.51-ff9
+Site: site1.local
+Form Dict: {'docs': '{"allocate_advances_automatically":0,"apply_discount_on":"Grand Total","c_form_applicable":"No","company":"Izat Afghan Limited","currency":"USD","customer_group":"All Customer Groups","docstatus":0,"doctype":"pos invoice","group_same_items":0,"ignore_pricing_rule":0,"is_discounted":0,"is_opening":"No","is_pos":1,"is_return":0,"__islocal":1,"items":[],"letter_head":"Izat Afghan","name":"new-pos-invoice","naming_series":"ACC-PSINV-.YYYY.-","owner":"Rvlirshad@gmail.com","party_account_currency":"USD","pos_profile":"testrav ","posting_date":"2021-07-30","price_list_currency":"USD","redeem_loyalty_points":0,"__run_link_triggers":1,"selling_price_list":"Standard Selling","set_posting_time":1,"status":"Draft","territory":"All Territories","total_billing_amount":0,"__unsaved":1,"update_billed_amount_in_sales_order":0,"update_stock":0,"write_off_outstanding_amount_automatically":0}', 'method': 'set_missing_values', 'cmd': 'run_doc_method'}
+2021-07-30 12:40:45,424 ERROR frappe New Exception collected with id: 2021-07-30 12:40:45.419178-59.103.106.51-663
+Site: site1.local
+Form Dict: {}
+2021-07-30 16:21:17,562 ERROR frappe New Exception collected with id: 2021-07-30 16:21:17.553728-42.201.135.195-25a
+Site: site1.local
+Form Dict: {'customer': 'Osaid', 'docstatus': 1, 'items': {'item_code': 'CHK 1000', 'qty': 1, 'rate': 8.5}, 'name': '001-002', 'naming_series': '001-002-.#########', 'payments': {'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}, 'posting_date': '2021-07-30'}
+2021-07-30 16:24:20,236 ERROR frappe New Exception collected with id: 2021-07-30 16:24:20.223048-59.103.106.51-ad7
+Site: site1.local
+Form Dict: {'customer': 'Osaid', 'docstatus': 1, 'items': {'item_code': 'CHK 1000', 'qty': 1, 'rate': 8.5}, 'name': '001-002', 'naming_series': '001-002-.#########', 'payments': {'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}, 'posting_date': '2021-07-30'}
+2021-07-30 16:27:34,184 ERROR frappe New Exception collected with id: 2021-07-30 16:27:34.178946-42.201.135.195-69b
+Site: site1.local
+Form Dict: {'customer': 'Osaid', 'docstatus': 1, 'items': {'item_code': 'CHK 1000', 'qty': 1, 'rate': 8.5}, 'name': '001-002', 'naming_series': '001-002-.#########', 'payments': {'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}, 'posting_date': '2021-07-30'}
+2021-07-30 16:30:13,512 ERROR frappe New Exception collected with id: 2021-07-30 16:30:13.505718-59.103.106.51-7d3
+Site: site1.local
+Form Dict: {'customer': 'Osaid', 'docstatus': 1, 'items': {'item_code': '1111', 'qty': 1, 'rate': 15}, 'name': '001-002', 'naming_series': '001-002-.#########', 'payments': {'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}, 'posting_date': '2021-07-30'}
+2021-07-30 16:40:04,611 ERROR frappe New Exception collected with id: 2021-07-30 16:40:04.603250-59.103.106.51-3aa
+Site: site1.local
+Form Dict: {'customer': 'Kefayatullah', 'docstatus': 1, 'items': {'item_code': '1111', 'qty': 1, 'rate': 8.5}, 'name': '001-002', 'naming_series': '001-002-.#########', 'payments': {'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}, 'posting_date': '2021-07-30'}
+2021-07-30 18:21:19,783 ERROR frappe New Exception collected with id: 2021-07-30 18:21:19.349948-39.45.42.89-880
+Site: site1.local
+Form Dict: {'doctype': 'Item Group', 'filters': '{"pos_profile": Osaid }', 'ignore_user_permissions': '0', 'query': 'erpnext.selling.page.point_of_sale.point_of_sale.item_group_query', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-07-30 18:23:07,833 ERROR frappe New Exception collected with id: 2021-07-30 18:23:07.827030-39.45.42.89-4e8
+Site: site1.local
+Form Dict: {'doctype': 'Item Group', 'filters': '{"pos_profile": Osaid }', 'ignore_user_permissions': '0', 'query': 'erpnext.selling.page.point_of_sale.point_of_sale.item_group_query', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-08-02 11:12:58,819 ERROR frappe New Exception collected with id: 2021-08-02 11:12:58.799101-103.53.27.10-571
+Site: site1.local
+Form Dict: {'account_name': 'Finished Goods', 'name': 'oil income - IAL', 'cmd': 'erpnext.accounts.doctype.account.account.update_account_number'}
+2021-08-02 11:13:07,894 ERROR frappe New Exception collected with id: 2021-08-02 11:13:07.337720-103.53.27.10-393
+Site: site1.local
+Form Dict: {'account_name': 'Finished Goods', 'name': 'oil income - IAL', 'cmd': 'erpnext.accounts.doctype.account.account.update_account_number'}
+2021-08-02 11:13:56,362 ERROR frappe New Exception collected with id: 2021-08-02 11:13:56.352866-103.53.27.10-272
+Site: site1.local
+Form Dict: {'account_name': 'Finished Goods ', 'name': 'oil income - IAL', 'cmd': 'erpnext.accounts.doctype.account.account.update_account_number'}
+2021-08-02 15:17:30,681 ERROR frappe New Exception collected with id: 2021-08-02 15:17:30.671350-59.103.106.51-39c
+Site: site1.local
+Form Dict: {'customer': 'Aab o dana  آب و دانه', 'docstatus': 1, 'items': [], 'name': '001-002', 'naming_series': 'ACC-PSINV-.YYYY.-', 'payments': [{'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}], 'posting_date': ''}
+2021-08-02 15:17:35,646 ERROR frappe New Exception collected with id: 2021-08-02 15:17:35.638423-59.103.106.51-b85
+Site: site1.local
+Form Dict: {'customer': 'Aab o dana  آب و دانه', 'docstatus': 1, 'items': [], 'name': '001-002', 'naming_series': 'ACC-PSINV-.YYYY.-', 'payments': [{'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}], 'posting_date': ''}
+2021-08-02 15:17:43,054 ERROR frappe New Exception collected with id: 2021-08-02 15:17:43.044740-59.103.106.51-8f3
+Site: site1.local
+Form Dict: {'customer': 'Aab o dana  آب و دانه', 'docstatus': 1, 'items': [], 'name': '001-002', 'naming_series': 'ACC-PSINV-.YYYY.-', 'payments': [{'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}], 'posting_date': ''}
+2021-08-02 15:17:47,543 ERROR frappe New Exception collected with id: 2021-08-02 15:17:47.535501-59.103.106.51-338
+Site: site1.local
+Form Dict: {'customer': 'Aab o dana  آب و دانه', 'docstatus': 1, 'items': [], 'name': '001-002', 'naming_series': 'ACC-PSINV-.YYYY.-', 'payments': [{'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}], 'posting_date': '2021-08-02'}
+2021-08-02 15:18:03,563 ERROR frappe New Exception collected with id: 2021-08-02 15:18:03.558947-59.103.106.51-f29
+Site: site1.local
+Form Dict: {'customer': 'Aab o dana  آب و دانه', 'docstatus': 1, 'items': [], 'name': '001-002', 'naming_series': 'ACC-PSINV-.YYYY.-', 'payments': [{'default': 1, 'account': 'Cash - IAL', 'docstatus': 0, 'doctype': 'Sales Invoice Payment', 'idx': 1, '__islocal': 1, 'mode_of_payment': 'Cash', 'name': 'new-sales-invoice-payment', 'parent': 'new-pos-invoice', 'parentfield': 'payments', 'type': 'Cash'}], 'posting_date': '2021-08-02'}
+2021-08-03 15:22:50,756 ERROR frappe New Exception collected with id: 2021-08-03 15:22:50.744989-42.201.135.195-b10
+Site: site1.local
+Form Dict: {'ignore_user_permissions': '0', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-08-03 15:23:10,786 ERROR frappe New Exception collected with id: 2021-08-03 15:23:10.780225-42.201.135.195-480
+Site: site1.local
+Form Dict: {'ignore_user_permissions': '0', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-08-04 08:03:00,611 ERROR frappe New Exception collected with id: 2021-08-04 08:03:00.599847-103.53.27.10-ded
+Site: site1.local
+Form Dict: {'doctype': 'Sales Invoice', 'fields': '["`tabSales Invoice`.`name`","`tabSales Invoice`.`owner`","`tabSales Invoice`.`creation`","`tabSales Invoice`.`modified`","`tabSales Invoice`.`modified_by`","`tabSales Invoice`.`_user_tags`","`tabSales Invoice`.`_comments`","`tabSales Invoice`.`_assign`","`tabSales Invoice`.`_liked_by`","`tabSales Invoice`.`docstatus`","`tabSales Invoice`.`parent`","`tabSales Invoice`.`parenttype`","`tabSales Invoice`.`parentfield`","`tabSales Invoice`.`idx`","`tabSales Invoice`.`total_billing_amount`","`tabSales Invoice`.`total`","`tabSales Invoice`.`net_total`","`tabSales Invoice`.`total_taxes_and_charges`","`tabSales Invoice`.`discount_amount`","`tabSales Invoice`.`grand_total`","`tabSales Invoice`.`rounding_adjustment`","`tabSales Invoice`.`rounded_total`","`tabSales Invoice`.`total_advance`","`tabSales Invoice`.`outstanding_amount`","`tabSales Invoice`.`paid_amount`","`tabSales Invoice`.`change_amount`","`tabSales Invoice`.`write_off_amount`","`tabSales Invoice`.`status`","`tabSales Invoice`.`title`","`tabSales Invoice`.`customer`","`tabSales Invoice`.`customer_name`","`tabSales Invoice`.`base_grand_total`","`tabSales Invoice`.`due_date`","`tabSales Invoice`.`company`","`tabSales Invoice`.`currency`","`tabSales Invoice`.`is_return`","`tabSales Invoice`.`_seen`","`tabSales Invoice`.`naming_series`","`tabSales Invoice`.`party_account_currency`"]', 'filters': '[["Sales Invoice","posting_time","=",null],["Sales Invoice","customer","=","Ravail"],["Sales Invoice","company","=","Izat Afghan Limited"]]', 'order_by': '`tabSales Invoice`.`naming_series` asc', 'start': '0', 'page_length': '20', 'view': 'List', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
+2021-08-04 08:18:50,943 ERROR frappe New Exception collected with id: 2021-08-04 08:18:50.935077-42.201.135.195-be5
+Site: site1.local
+Form Dict: {'ignore_user_permissions': '0', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-08-04 10:17:17,194 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","opening_amount":20,"owner":"Administrator","parent":"new-pos-opening-entry","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:18:00,549 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","owner":"Administrator","parent":"new-pos-opening-entry","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:20:07,872 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","owner":"Administrator","parent":"new-pos-opening-entry-3","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:21:24,535 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","owner":"Administrator","parent":"new-pos-opening-entry-3","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:22:08,163 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","owner":"rvlirshad@gmail.com","parent":"new-pos-opening-entry-3","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:22:24,378 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","owner":"rvlirshad@gmail.com","parent":"new-pos-opening-entry-3","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:23:27,641 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening Entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":10,"parent":"new-pos-opening-entry-1","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:24:10,806 ERROR frappe New Exception collected with id: 2021-08-04 10:24:10.799932-59.103.106.51-8c0
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening entry","name":"new-pos-opening-entry-1","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":0,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":10,"parent":"new-pos-opening-entry-1","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-04 10:30:33,620 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"owner":"Administrator","set_posting_date":"1","__islocal":"1","__unsaved":"1","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","opening_amount":20,"owner":"Administrator","parent":"new-pos-opening-entry","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"doctype":"POS Opening Entry","period_end_date":"","period_start_date":"2021-08-04","name":"new-pos-opening-entry","company":"Izat Afghan Limited","pos_profile":"Osaid ","posting_date":"2021-08-04","user":"rvlirshad@gmail.com","opening_amount":"20","docstatus":"0","status":"Draft"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:32:30,585 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"owner":"Administrator","set_posting_date":"1","__islocal":"1","__unsaved":"1","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","opening_amount":20,"owner":"Administrator","parent":"new-pos-opening-entry","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"doctype":"POS Opening Entry","period_end_date":"","period_start_date":"2021-08-04","name":"new-pos-opening-entry","company":"Izat Afghan Limited","pos_profile":"Osaid ","posting_date":"2021-08-04","user":"rvlirshad@gmail.com","opening_amount":"20","docstatus":"0","status":"Draft"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 10:33:13,973 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"owner":"Administrator","set_posting_date":"1","__islocal":"1","__unsaved":"1","balance_details":[{"__islocal":1,"__unsaved":1,"docstatus":0,"doctype":"POS Opening Entry detail","idx":1,"mode_of_payment":"Cash","name":"new-pos-opening-entry-detail","opening_amount":20,"owner":"Administrator","parent":"new-pos-opening-entry","parentfield":"balance_details","parenttype":"POS Opening Entry"}],"doctype":"POS Opening Entry","period_end_date":"","period_start_date":"2021-08-04","name":"new-pos-opening-entry","company":"Izat Afghan Limited","pos_profile":"Osaid ","posting_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","opening_amount":"20","docstatus":"0","status":"Draft"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 11:32:17,741 ERROR frappe Could not take error snapshot: 'POSOpeningEntry' object has no attribute 'parent'
+Site: site1.local
+Form Dict: {'doc': '{"owner":"Administrator","set_posting_date":"1","__islocal":"1","__unsaved":"1","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":20,"parent":"new-pos-opening-entry-2","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"doctype":"POS Opening Entry","period_end_date":"","period_start_date":"2021-08-04","name":"new-pos-opening-entry","company":"Izat Afghan Limited","pos_profile":"Osaid ","posting_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","opening_amount":"20","docstatus":"0","status":"Draft"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/app.py", line 68, in application
+    response = frappe.api.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 31, in handle
+    data = execute_cmd(cmd)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/handler.py", line 67, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 1172, in call
+    return fn(*args, **newargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 12, in savedocs
+    doc = frappe.get_doc(json.loads(doc))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 850, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 75, in get_doc
+    return controller(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 122, in __init__
+    super(Document, self).__init__(kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 82, in __init__
+    self.update(d)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 113, in update
+    self.set(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 160, in set
+    self.extend(key, value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 206, in extend
+    self.append(key, v)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 183, in append
+    value = self._init_child(value, key)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 222, in _init_child
+    value = get_controller(value["doctype"])(value)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 74, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/base_document.py", line 66, in _get_controller
+    raise ImportError(doctype)
+ImportError: POS Opening Entry detail
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in get_snapshot
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/inspect.py", line 1284, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.8/inspect.py", line 1281, in convert
+    return formatarg(name) + formatvalue(locals[name])
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/error.py", line 81, in <lambda>
+    call = inspect.formatargvalues(args, varargs, varkw, locals, formatvalue=lambda value: '={}'.format(pydoc.text.repr(value)))
+  File "/usr/lib/python3.8/reprlib.py", line 52, in repr
+    return self.repr1(x, self.maxlevel)
+  File "/usr/lib/python3.8/pydoc.py", line 1054, in repr1
+    return cram(stripid(repr(x)), self.maxother)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1356, in __repr__
+    parent = f" parent={self.parent}" if self.parent else ""
+AttributeError: 'POSOpeningEntry' object has no attribute 'parent'
+2021-08-04 11:33:11,225 ERROR frappe New Exception collected with id: 2021-08-04 11:33:11.060558-42.201.135.195-aa5
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening entry","name":"new-pos-opening-entry-2","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":1,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":20,"parent":"new-pos-opening-entry-2","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-04 11:33:45,637 ERROR frappe New Exception collected with id: 2021-08-04 11:33:45.628882-42.201.135.195-994
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening entry","name":"new-pos-opening-entry-5","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":1,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":20,"parent":"new-pos-opening-entry-2","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-04 11:35:36,592 ERROR frappe New Exception collected with id: 2021-08-04 11:35:36.584308-42.201.135.195-080
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening entry","name":"new-pos-opening-entry-5","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":1,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry Detail","name":"new-pos-opening-entry-detail-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":20,"parent":"new-pos-opening-entry-2","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-04 11:36:03,085 ERROR frappe New Exception collected with id: 2021-08-04 11:36:03.078948-42.201.135.195-540
+Site: site1.local
+Form Dict: {'doc': '{"docstatus":0,"doctype":"POS Opening entry","name":"new-pos-opening-entry-5","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","status":"Draft","posting_date":"2021-08-04","set_posting_date":1,"company":"Izat Afghan Limited","balance_details":[{"docstatus":0,"doctype":"POS Opening Entry detail","name":"new-pos-opening-entry-detail-4","__islocal":1,"__unsaved":1,"owner":"rvlirshad@gmail.com","opening_amount":20,"parent":"new-pos-opening-entry-2","parentfield":"balance_details","parenttype":"POS Opening Entry","idx":1,"mode_of_payment":"Cash"}],"period_start_date":"2021-08-04 11:05:53","user":"rvlirshad@gmail.com","pos_profile":"Osaid "}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2021-08-04 12:55:52,230 ERROR frappe New Exception collected with id: 2021-08-04 12:55:52.223127-42.201.135.195-134
+Site: site1.local
+Form Dict: {'doctype': 'Payment Reconciliation', 'ignore_user_permissions': '0', 'reference_doctype': '', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}
+2021-08-04 13:30:59,006 ERROR frappe New Exception collected with id: 2021-08-04 13:30:58.998084-42.201.135.195-917
+Site: site1.local
+Form Dict: {'doctype': 'Payment Reconciliation', 'ignore_user_permissions': '0', 'reference_doctype': 'POS Closing Entry', 'txt': '', 'cmd': 'frappe.desk.search.search_link'}

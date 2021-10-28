@@ -1,0 +1,2334 @@
+09:39:11 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:40:03 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:40:04 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:47:55 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:49:47 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:50:29 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:55:23 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:17:20 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:17:24 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:17:38 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:17:59 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:18:45 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+14:47:47 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+14:47:54 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:47:22 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:49:46 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:51:18 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:51:18 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:51:19 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:53:33 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:56:34 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:58:55 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+16:00:42 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+16:00:42 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:37:59 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:39:37 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:50:44 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:51:17 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:52:08 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:52:20 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:52:24 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:55:30 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:55:34 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:55:44 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:56:29 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:58:46 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:58:53 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:59:01 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+14:14:45 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:22:44 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:22:45 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:22:45 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+15:22:57 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+17:36:43 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:20:30 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:57:04 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:57:05 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:57:06 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:57:07 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:57:07 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+08:48:45 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 827, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: danish.waqar@izatafghan.com
+
+08:48:46 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 827, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: danish.waqar@izatafghan.com
+
+18:17:11 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:09:31 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 73, in make_notification_logs
+    _doc.insert(ignore_permissions=True)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 259, in insert
+    self.run_method("after_insert")
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 859, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1148, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 1131, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 853, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 16, in after_insert
+    send_notification_email(self)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/desk/doctype/notification_log/notification_log.py", line 86, in send_notification_email
+    frappe.sendmail(
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+09:02:37 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 827, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: ehsanullah@izatafghan.com
+
+09:09:51 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 533, in sendmail
+    queue.send(recipients=recipients, sender=sender,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/queue.py", line 76, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype, sender=sender)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/email/smtp.py", line 89, in get_outgoing_email_account
+    frappe.throw(_("Please setup default Email Account from Setup > Email > Email Account"),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+20:52:24 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 827, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: abdullaharif3333@gmail.com
+
+20:52:25 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1184, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 232, in insert
+    self._validate_links()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/model/document.py", line 827, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg),
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 432, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red', is_minimizable=is_minimizable, wide=wide, as_list=as_list)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in msgprint
+    _raise_exception()
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/__init__.py", line 365, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: abdullaharif3333@gmail.com
+
+09:13:26 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+13:36:47 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+14:18:08 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+14:20:17 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+07:32:24 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+09:41:31 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+10:09:36 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
+10:10:49 Traceback (most recent call last):
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/home/izatafghan/frappe-bench/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 100, in execute_job
+    method(**kwargs)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 461, in sendmail
+    communication._notify(print_html=print_html, print_format=print_format, attachments=attachments,
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/communication.py", line 211, in _notify
+    _notify(self, print_html, print_format, attachments, recipients, cc, bcc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 151, in _notify
+    prepare_to_notify(doc, print_html, print_format, attachments)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 233, in prepare_to_notify
+    set_incoming_outgoing_accounts(doc)
+  File "/home/izatafghan/frappe-bench/apps/frappe/frappe/core/doctype/communication/email.py", line 293, in set_incoming_outgoing_accounts
+    doc.db_set("email_account", doc.outgoing_email_account.name)
+AttributeError: 'NoneType' object has no attribute 'name'
+
